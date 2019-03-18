@@ -426,7 +426,7 @@ shared_examples_for 'a delayed_job backend' do
       end
     end
 
-    context "when asked to exclude specified queues" do
+    context 'when asked to exclude specified queues' do
       context 'and worker does not have queue set' do
         before(:each) do
           worker.queues = []
