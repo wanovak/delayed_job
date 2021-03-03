@@ -275,7 +275,7 @@ Work off queues by setting the `QUEUE` or `QUEUES` environment variable.
     QUEUES=mailers,tasks rake jobs:work
 
 If EXCLUDE_SPECIFIED_QUEUES set to YES, then queues defined by QUEUE, QUEUES will be skipped instead.
-See opton --exclude-specified-queues description for specal case of queue "*"
+See option --exclude-specified-queues description for special case of queue "*"
 
 Restarting delayed_job
 ======================
