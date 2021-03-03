@@ -244,7 +244,7 @@ You can then do the following:
     RAILS_ENV=production script/delayed_job --queue=tracking start
     RAILS_ENV=production script/delayed_job --queues=mailers,tasks start
 
-    # Option --exclude-specified-queues will do inverse of queues processing by skipping onces from --queue, --queues.
+    # Option --exclude-specified-queues will do inverse of queues processing by skipping ones from --queue, --queues.
     # If both --pool=* --exclude-specified-queues given, no exclusions will by applied on "*".
 
     # Use the --pool option to specify a worker pool.
